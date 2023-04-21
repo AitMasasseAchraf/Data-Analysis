@@ -1,0 +1,204 @@
+
+[DEBUG] 2022-11-21 12:45:52,497 pl_java.Reader_xls - Creating Sql Table
+[DEBUG] 2022-11-21 12:45:52,499 pl_java.Reader_xls - pl_java.Reader_xls@396f6598
+[DEBUG] 2022-11-21 12:49:21,623 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-11-21 12:49:21,626 pl_java.Reader_xls - pl_java.Reader_xls@396f6598
+[ERROR] 2022-11-21 12:49:21,627 pl_java.Reader_xls - C:\Users\aitma\Desktop\Book1_200.xls (Le fichier spécifié est introuvable)
+java.io.FileNotFoundException: C:\Users\aitma\Desktop\Book1_200.xls (Le fichier spécifié est introuvable)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:48)
+	at pl_java.MOD_ELEM_ID.main(MOD_ELEM_ID.java:25)
+[DEBUG] 2022-11-21 12:50:59,784 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-11-21 12:50:59,786 pl_java.Reader_xls - pl_java.Reader_xls@396f6598
+[DEBUG] 2022-11-21 12:51:24,707 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-11-21 12:51:24,709 pl_java.Reader_xls - pl_java.Reader_xls@396f6598
+[ERROR] 2022-11-21 12:51:24,711 pl_java.Reader_xls - C:\Users\aitma\Desktop\Book1_2007.ls (Le fichier spécifié est introuvable)
+java.io.FileNotFoundException: C:\Users\aitma\Desktop\Book1_2007.ls (Le fichier spécifié est introuvable)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:48)
+	at pl_java.main.main(main.java:26)
+[DEBUG] 2022-11-21 13:14:32,833 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-11-21 13:14:32,835 pl_java.Reader_xls - pl_java.Reader_xls@396f6598
+[ERROR] 2022-11-21 13:14:32,836 pl_java.Reader_xls - C:\Users\aitma\Desktop\Book1_207.ls (Le fichier spécifié est introuvable)
+java.io.FileNotFoundException: C:\Users\aitma\Desktop\Book1_207.ls (Le fichier spécifié est introuvable)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:48)
+	at pl_java.main.main(main.java:27)
+[DEBUG] 2022-11-29 23:30:14,783 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-11-29 23:30:14,786 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-11-29 23:30:14,788 pl_java.Reader_xls - C:\Users\aitma\Desktop\Book1_207.ls (Le fichier spécifié est introuvable)
+java.io.FileNotFoundException: C:\Users\aitma\Desktop\Book1_207.ls (Le fichier spécifié est introuvable)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:48)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-11-29 23:31:42,097 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-11-29 23:31:42,099 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 15:20:19,343 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 15:20:19,346 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-12-05 15:20:19,348 pl_java.Reader_xls - C:\Users\aitma\Desktop\Book1_2007.xls (Le fichier spécifié est introuvable)
+java.io.FileNotFoundException: C:\Users\aitma\Desktop\Book1_2007.xls (Le fichier spécifié est introuvable)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:48)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-12-05 15:36:04,049 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 15:36:04,052 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 15:40:44,335 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 15:40:44,338 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-12-05 15:40:44,430 pl_java.Reader_xls - The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:126)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:113)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:301)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:413)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:394)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:51)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-12-05 15:42:26,565 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 15:42:26,567 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-12-05 15:42:26,657 pl_java.Reader_xls - The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:126)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:113)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:301)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:413)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:394)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:51)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-12-05 15:47:03,691 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 15:47:03,694 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-12-05 15:47:03,776 pl_java.Reader_xls - The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:126)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:113)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:301)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:413)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:394)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:51)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-12-05 15:49:19,820 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 15:49:19,822 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-12-05 15:49:19,903 pl_java.Reader_xls - The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:126)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:113)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:301)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:413)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:394)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:51)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-12-05 15:57:58,349 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 15:57:58,351 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-12-05 15:57:58,440 pl_java.Reader_xls - The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:126)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:113)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:301)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:413)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:394)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:51)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-12-05 16:51:23,047 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 16:51:23,050 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[ERROR] 2022-12-05 16:51:23,132 pl_java.Reader_xls - The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+org.apache.poi.poifs.filesystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:126)
+	at org.apache.poi.poifs.storage.HeaderBlock.<init>(HeaderBlock.java:113)
+	at org.apache.poi.poifs.filesystem.NPOIFSFileSystem.<init>(NPOIFSFileSystem.java:301)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:413)
+	at org.apache.poi.hssf.usermodel.HSSFWorkbook.<init>(HSSFWorkbook.java:394)
+	at pl_java.Reader_xls.sheet_obj(Reader_xls.java:51)
+	at pl_java.main.main(main.java:33)
+[DEBUG] 2022-12-05 17:00:07,955 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 17:00:07,957 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 17:05:06,325 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 17:05:06,327 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 18:22:55,226 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 18:22:55,231 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 18:25:36,993 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 18:25:36,997 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 18:44:40,002 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 18:44:40,005 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 18:57:17,131 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 18:57:17,135 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:19:36,780 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:19:36,783 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:22:04,509 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:22:04,512 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:26:03,536 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:26:03,539 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:31:39,398 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:31:39,401 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:38:49,229 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:38:49,232 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:44:47,963 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:44:47,965 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:48:30,510 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:48:30,513 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:49:40,985 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:49:40,988 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 19:57:22,370 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 19:57:22,373 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 20:34:34,785 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 20:34:34,787 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 20:39:49,964 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 20:39:49,966 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 20:41:30,775 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 20:41:30,777 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 21:49:09,135 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 21:49:09,138 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 21:51:33,084 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 21:51:33,087 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 21:58:48,491 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 21:58:48,494 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 22:03:39,714 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 22:03:39,717 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 22:15:07,133 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 22:15:07,136 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 22:20:08,145 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 22:20:08,149 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-05 22:20:40,245 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-05 22:20:40,248 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-06 09:08:27,089 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-06 09:08:27,094 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-06 09:48:48,334 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-06 09:48:48,337 pl_java.Reader_xls - pl_java.Reader_xls@27a5f880
+[DEBUG] 2022-12-17 18:10:40,322 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:10:40,326 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 18:18:29,040 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:18:29,046 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 18:26:52,432 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:26:52,437 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 18:28:10,641 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:28:10,644 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 18:31:57,746 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:31:57,750 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 18:50:04,675 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:50:04,679 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 18:55:55,597 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:55:55,602 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 18:58:54,517 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 18:58:54,521 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 20:26:01,542 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 20:26:01,546 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2022-12-17 20:42:04,115 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2022-12-17 20:42:04,119 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2023-01-02 22:05:30,045 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2023-01-02 22:05:30,051 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2023-01-02 22:10:41,462 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2023-01-02 22:10:41,466 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2023-01-05 14:22:33,571 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2023-01-05 14:22:33,576 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2023-01-05 14:44:14,734 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2023-01-05 14:44:14,741 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
+[DEBUG] 2023-01-05 14:50:48,787 pl_java.Reader_xls - Creating Sql Tables
+[DEBUG] 2023-01-05 14:50:48,790 pl_java.Reader_xls - pl_java.Reader_xls@5f282abb
