@@ -1,48 +1,57 @@
-# Achraf_Dejong
+# Data Engineering Project
 
--- the Project's Title :  Data Engineering Project
---Description : in this project I tried to combine all Data Engineer's tasks (extracting data , loading and warehousing data , analyzing data)
-               
-              such as in:
-              - the part 1 ,The data is extracted from https://www.thewhiskyexchange.com via web scraping methods using Python.
-              - the part 2 , I used Python to generate random data about various parts of the organization.I Designed a Central RDBMS and apply normalization 
-                             and I  Loaded the data into the central RDBMS.
-                 -after moving to the part 3 , I Created the Data Warehouse in a different schema  ,  I begun Generating the Date Dimension by check the date of the first transaction from the central database 
-                  all that by using fichier1.sql.
-                  
-             - the part 3 , I finished the creation of Date Dimension and I Loaded it to MySQL  
-                 after moving to the part 4 , I genereted the Dimension of the shema warehouse and I created triggers  for Automating the Transfer of Data between the shema source and the shema warehouse
-                 all that by using fichier2.
-                 
-                 
-            the part 4 , in this part I Connected  Python to the MySQL Data Warehouse ,  I Extracted the Fact Table data and finally I Analyzed the Data  .
-            
-            
-            
--- NOTE !!! : the required libraries :
-  bs4  
- pandas 
- requests
- numpy 
- names
- faker 
+## Project Title
+**Data Engineering Project**
 
- pandasql 
- random
- time
- datetime 
- datetime 
- pymysql
- matplotlib.pyplot 
- seaborn
- pymysql
- 
- __NOTE !! : the order of files is :
-                        the part 1
-                        the part 2
-                        fichier1.sql
-                        the part 3
-                        fichier2.sql
-                        the part 4
-                             
-              
+## Description
+In this project, I integrated various data engineering tasks, including extracting, loading, warehousing, and analyzing data.
+
+### Part 1: Data Extraction
+- **Source**: [The Whisky Exchange](https://www.thewhiskyexchange.com)
+- **Method**: Web scraping using Python
+
+### Part 2: Data Generation and Loading
+- **Data Generation**: Used Python to generate random data about various parts of the organization
+- **Database Design**: Designed a central RDBMS and applied normalization
+- **Data Loading**: Loaded the data into the central RDBMS
+
+### Part 3: Data Warehouse Creation
+- **Schema Design**: Created the Data Warehouse in a different schema
+- **Date Dimension**: Generated the Date Dimension by checking the date of the first transaction from the central database using `fichier1.sql`
+- **Loading**: Completed the creation of the Date Dimension and loaded it into MySQL
+
+### Part 4: Dimension Generation and Automation
+- **Schema Warehouse Dimensions**: Generated the dimensions of the warehouse schema
+- **Automation**: Created triggers for automating the transfer of data between the source schema and the warehouse schema using `fichier2.sql`
+
+### Part 5: Data Extraction and Analysis
+- **Connection**: Connected Python to the MySQL Data Warehouse
+- **Data Extraction**: Extracted the Fact Table data
+- **Data Analysis**: Analyzed the data
+
+## Required Libraries
+- `bs4`
+- `pandas`
+- `requests`
+- `numpy`
+- `names`
+- `faker`
+- `pandasql`
+- `random`
+- `time`
+- `datetime`
+- `pymysql`
+- `matplotlib.pyplot`
+- `seaborn`
+
+## File Order
+1. Part 1
+2. Part 2
+3. `fichier1.sql`
+4. Part 3
+5. `fichier2.sql`
+6. Part 4
+
+---
+
+**Note**: Ensure you have all the required libraries installed before running the project.
